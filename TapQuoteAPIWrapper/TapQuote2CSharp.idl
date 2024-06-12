@@ -1,0 +1,11 @@
+%module(directors = "1") TapQuote
+%include "various.i"
+%{
+#include "TapQuoteAPI.h"
+%}
+%feature("director") ITapQuoteAPINotify;
+%feature("director") ITapQuoteAPI;
+%include "TapAPICommDef.h"
+%include "TapAPIError.h"
+%include "TapQuoteAPIDataType.h"
+%include "TapQuoteAPI.h"
