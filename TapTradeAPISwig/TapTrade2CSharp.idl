@@ -1,0 +1,12 @@
+%module(directors = "1") TapTradeAPIWrapper
+%include "various.i"
+%{
+#include "iTapTradeAPI.h"
+%}
+%feature("director") ITapTradeAPINotify;
+%feature("director") ITapTradeAPI;
+%include "iTapAPICommDef.h"
+%include "iTapAPIError.h"
+%include "iTapDataCollectAPI.h"
+%include "iTapTradeAPIDataType.h"
+%include "iTapTradeAPI.h"

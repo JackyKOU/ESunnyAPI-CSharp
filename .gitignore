@@ -2,3 +2,5 @@
 ConsoleApp1/bin/
 ConsoleApp1/obj/
 TapQuoteAPIWrapper/x64/
+TapTradeAPIWrapper/x64/
+*.exp
